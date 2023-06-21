@@ -1,7 +1,19 @@
 import xml.etree.ElementTree as ET
+import tkinter as tk
+from tkinter import filedialog
+
+# Create a Tkinter root window (hidden)
+root = tk.Tk()
+root.withdraw()
+
+# Show a file open dialog
+file_path = filedialog.askopenfilename(filetypes=[("KML files", "*.kml")])
+if not file_path:
+    print("No file selected. Exiting.")
+    exit()
 
 # Load and parse the input KML file
-tree = ET.parse('input.kml')
+tree = ET.parse(file_path)
 root = tree.getroot()
 
 # Extract the namespace from the root element (we'll need this to find elements)
