@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="10sqkm" id="10sqkm">
+	<SimpleField name="id" type="float"></SimpleField>
+	<SimpleField name="area" type="float"></SimpleField>
+	<SimpleField name="area2" type="float"></SimpleField>
+</Schema>
+<Folder><name>10sqkm</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#10sqkm">
+		<SimpleData name="area2">1128756</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-118.484964068828,34.0928503436349 -118.471479676131,34.0928034241513 -118.471621318912,34.0845803830189 -118.485219025833,34.0847915409988 -118.484964068828,34.0928503436349</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>
