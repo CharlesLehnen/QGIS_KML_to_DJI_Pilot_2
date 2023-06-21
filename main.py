@@ -1,6 +1,7 @@
 import xml.etree.ElementTree as ET
 import tkinter as tk
 from tkinter import filedialog
+import os
 
 # Create a Tkinter root window (hidden)
 root = tk.Tk()
@@ -45,6 +46,11 @@ linear_ring = ET.SubElement(outer_boundary, 'LinearRing')
 # Copy the coordinates from the input file to the output file
 linear_ring.append(coordinates)
 
+# Generate the output file name from the input file name
+base_name = os.path.basename(file_path)  # Extract the file name from the path
+base_name_without_ext = os.path.splitext(base_name)[0]  # Remove the extension
+output_file_name = f"{base_name_without_ext}_flightpath.kml"
+
 # Write the output KML file
 tree = ET.ElementTree(kml)
-tree.write('output.kml', encoding='utf-8', xml_declaration=True)
+tree.write(output_file_name, encoding='utf-8', xml_declaration=True)
