@@ -1,0 +1,7 @@
+altgraph @ file:///home/conda/feedstock_root/build_artifacts/altgraph_1672883081769/work
+future @ file:///home/conda/feedstock_root/build_artifacts/future_1673596611778/work
+pefile @ file:///home/conda/feedstock_root/build_artifacts/pefile_1675867622763/work
+pyinstaller @ file:///C:/b/abs_dbsfiidkbn/croot/pyinstaller_1670881068280/work
+pyinstaller-hooks-contrib @ file:///home/conda/feedstock_root/build_artifacts/pyinstaller-hooks-contrib_1683839118576/work
+pywin32==305.1
+pywin32-ctypes @ file:///D:/bld/pywin32-ctypes_1687191977418/work
