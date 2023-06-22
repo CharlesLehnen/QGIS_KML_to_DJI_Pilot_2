@@ -7,14 +7,20 @@ import os
 root = tk.Tk()
 root.withdraw()
 
-# Show a file open dialog
-file_path = filedialog.askopenfilename(filetypes=[("KML files", "*.kml")])
-if not file_path:
+# Show a file open dialog for the input KML file
+input_file_path = filedialog.askopenfilename(filetypes=[("KML files", "*.kml")])
+if not input_file_path:
     print("No file selected. Exiting.")
     exit()
 
+# Show a directory selection dialog for the output file
+output_dir = filedialog.askdirectory()
+if not output_dir:
+    print("No directory selected. Exiting.")
+    exit()
+
 # Load and parse the input KML file
-tree = ET.parse(file_path)
+tree = ET.parse(input_file_path)
 root = tree.getroot()
 
 # Extract the namespace from the root element (we'll need this to find elements)
@@ -47,10 +53,13 @@ linear_ring = ET.SubElement(outer_boundary, 'LinearRing')
 linear_ring.append(coordinates)
 
 # Generate the output file name from the input file name
-base_name = os.path.basename(file_path)  # Extract the file name from the path
+base_name = os.path.basename(input_file_path)  # Extract the file name from the path
 base_name_without_ext = os.path.splitext(base_name)[0]  # Remove the extension
 output_file_name = f"{base_name_without_ext}_flightpath.kml"
 
+# Combine the selected directory with the output file name
+output_file_path = os.path.join(output_dir, output_file_name)
+
 # Write the output KML file
 tree = ET.ElementTree(kml)
-tree.write(output_file_name, encoding='utf-8', xml_declaration=True)
+tree.write(output_file_path, encoding='utf-8', xml_declaration=True)
