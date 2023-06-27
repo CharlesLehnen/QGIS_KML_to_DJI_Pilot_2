@@ -1,0 +1,27 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - altgraph=0.17.3=pyhd8ed1ab_0
+  - bzip2=1.0.8=he774522_0
+  - ca-certificates=2023.5.7=h56e8100_0
+  - future=0.18.3=pyhd8ed1ab_0
+  - libffi=3.4.4=hd77b12b_0
+  - openssl=3.0.9=h2bbff1b_0
+  - pefile=2023.2.7=pyhd8ed1ab_0
+  - pip=23.1.2=py310haa95532_0
+  - pyinstaller=5.6.2=py310h2bbff1b_0
+  - pyinstaller-hooks-contrib=2023.3=pyhd8ed1ab_0
+  - python=3.10.11=he1021f5_3
+  - python_abi=3.10=2_cp310
+  - pywin32=305=py310h2bbff1b_0
+  - pywin32-ctypes=0.2.1=py310h5588dad_0
+  - setuptools=67.8.0=py310haa95532_0
+  - sqlite=3.41.2=h2bbff1b_0
+  - tk=8.6.12=h2bbff1b_0
+  - tzdata=2023c=h04d1e81_0
+  - vc=14.2=h21ff451_1
+  - vs2015_runtime=14.27.29016=h5e58377_2
+  - wheel=0.38.4=py310haa95532_0
+  - xz=5.4.2=h8cc25b3_0
+  - zlib=1.2.13=h8cc25b3_0
