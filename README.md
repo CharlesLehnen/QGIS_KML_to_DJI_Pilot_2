@@ -4,7 +4,7 @@ A script that converts the KML export from QGIS into a KML file that is readable
 
 ## Usage
 
-There are 2 options for running this script:
+There are 3 options for running this script:
 
 ### Windows Executable
 
@@ -29,7 +29,7 @@ There are 2 options for running this script:
 4. Run the script with the following command: `python main.py`
 5. Follow the prompts to select your input KML file and export location.
 
-* For best results, `cd` to cloned folder in a conda terminal and set-up with `conda env create -f environment.yml -n QGIS_KML_to_DJI_Pilot_2`
+* For best results, `cd` to cloned folder in a conda terminal and set-up environment with `conda env create -f environment.yml -n QGIS_KML_to_DJI_Pilot_2`
 
 ### Citation
 
