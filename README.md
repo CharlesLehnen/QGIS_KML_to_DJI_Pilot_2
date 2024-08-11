@@ -1,4 +1,4 @@
-# QGIS_KML_to_DJI_Pilot_2
+# QGIS KML to DJI Pilot 2
 
 A script that converts the KML export from QGIS into a KML file that is readable by the DJI Pilot 2 app.
 
@@ -33,14 +33,21 @@ There are 2 options for running this script:
 
 ### Citation
 
-Please cite however you can if you use this script
+If you use this project or its data in your research, please cite it appropriately:
 
+#### Example Citation
+Lehnen, Charles (2023). “QGIS KML to DJI Pilot 2”. GitHub repository. https://github.com/CharlesLehnen/QGIS_KML_to_DJI_Pilot_2
+
+BibTeX:
+
+```
 @misc{lehnen2023qgiskml,
   author = {Lehnen, Charles},
-  title = {QGIS_KML_to_DJI_Pilot_2},
+  title = {QGIS KML to DJI Pilot 2},
   year = {2023},
   howpublished = {\url{https://github.com/CharlesLehnen/QGIS_KML_to_DJI_Pilot_2}}
 }
+```
 
 Original inspiration thanks to @LV_Forestry from [this post](https://forum.dji.com/thread-283890-1-1.html).
 
