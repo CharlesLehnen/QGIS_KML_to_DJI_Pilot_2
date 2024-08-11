@@ -1,7 +1,10 @@
-altgraph @ file:///home/conda/feedstock_root/build_artifacts/altgraph_1672883081769/work
-future @ file:///home/conda/feedstock_root/build_artifacts/future_1673596611778/work
+altgraph @ file:///home/conda/feedstock_root/build_artifacts/altgraph_1695642967802/work
+future @ file:///home/conda/feedstock_root/build_artifacts/future_1708610096684/work
+importlib_metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1721856510709/work
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1718189413536/work
 pefile @ file:///home/conda/feedstock_root/build_artifacts/pefile_1675867622763/work
-pyinstaller @ file:///C:/b/abs_dbsfiidkbn/croot/pyinstaller_1670881068280/work
-pyinstaller-hooks-contrib @ file:///home/conda/feedstock_root/build_artifacts/pyinstaller-hooks-contrib_1683839118576/work
-pywin32==305.1
-pywin32-ctypes @ file:///D:/bld/pywin32-ctypes_1687191977418/work
+pyinstaller @ file:///D:/bld/pyinstaller_1723331303038/work
+pyinstaller-hooks-contrib @ file:///home/conda/feedstock_root/build_artifacts/pyinstaller-hooks-contrib_1723275433583/work
+pywin32==306
+pywin32-ctypes @ file:///D:/bld/pywin32-ctypes_1695395107726/work
+zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1718013267051/work
