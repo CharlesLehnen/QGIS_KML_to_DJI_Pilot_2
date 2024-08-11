@@ -35,10 +35,10 @@ There are 2 options for running this script:
 
 If you use this project or its data in your research, please cite it appropriately:
 
-#### Example Citation
+#### Example Citation:
 Lehnen, Charles (2023). “QGIS KML to DJI Pilot 2”. GitHub repository. https://github.com/CharlesLehnen/QGIS_KML_to_DJI_Pilot_2
 
-BibTeX:
+#### BibTeX:
 
 ```
 @misc{lehnen2023qgiskml,
