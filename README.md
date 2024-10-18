@@ -13,7 +13,7 @@ There are 3 options for running this script:
 3. Double click the `.exe` file to run the script.
 4. Follow the prompts to select your input KML file and export location.
 
-### Linux Executable (for Debain based systems)
+### Linux Executable (for Debian based systems)
 
 1. Clone this repository to your local machine.
 2. Navigate to the `dist` directory, where you will find the standalone `.deb` Debain package file.
