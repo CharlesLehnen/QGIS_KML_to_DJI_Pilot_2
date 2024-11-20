@@ -2,7 +2,7 @@
 
 A script that converts the KML export from QGIS into a KML file that is readable by the DJI Pilot 2 app.
 
-**If you use this program/script, please show your support by starring this repo**
+***If you use this program/script, please show your support by starring this repo***
 
 ## Usage
 
